@@ -1,3 +1,4 @@
+import 'package:belajar/container_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,14 +22,25 @@ class MyApp extends StatelessWidget {
             style: TextStyle(backgroundColor: Colors.white),
             ),
         ),
-        body: Center(
-          child: Text(
-            "Hello Dunia\nHello Fitri\nHello Asti",
-            style: TextStyle(
-              color: Colors.pink, fontSize: 24, fontWeight: FontWeight.bold),
-            ),
-        ),
+        body: BelajarContainer(),
       ),
+    );
+  }
+}
+
+class TextWidget extends StatelessWidget {
+  const TextWidget({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text(
+        "Hello Dunia\nHello Fitri\nHello Asti",
+        style: TextStyle(
+          color: Colors.pink, fontSize: 24, fontWeight: FontWeight.bold),
+        ),
     );
   }
 }
