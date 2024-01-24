@@ -3,6 +3,10 @@ import 'package:belajar/container_widget.dart';
 import 'package:belajar/latihan1.dart';
 import 'package:belajar/latihan2.dart';
 import 'package:belajar/latihan3.dart';
+import 'package:belajar/listview/latihanList.dart';
+import 'package:belajar/listview/list_basic.dart';
+import 'package:belajar/listview/list_builder.dart';
+import 'package:belajar/listview/list_separated.dart';
 import 'package:belajar/row_column.dart';
 import 'package:belajar/row_widget.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +32,7 @@ class MyApp extends StatelessWidget {
             style: TextStyle(backgroundColor: Colors.white),
             ),
         ),
-        body: Latihan3(),
+        body: LatihanListView (),
       ),
     );
   }
