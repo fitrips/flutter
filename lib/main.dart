@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
        routes: {
         '/': (context) => NavigationMenu(),
         'second': (context) => ListNatureScreen(),
-        'third': (context) => BelajarForm(),
+        'third': (context) => BookingNature(),
        }, 
     );
   }

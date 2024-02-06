@@ -17,7 +17,7 @@ class _NavigationMenuState extends State<NavigationMenu> {
   List _pages = [
     HomeScreen(),
     ListNatureScreen(),
-    BelajarForm(),
+    BookingNature(),
   ];
 
   _changeTab(int index) {
